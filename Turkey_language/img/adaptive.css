@@ -1,0 +1,59 @@
+@media (max-width: 1550px) {
+  .flag-info {
+    width: 40%;
+  }
+}
+@media (max-width: 1350px) {
+  .flag-info {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .flag-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flag-info {
+    width: 40%;
+  }
+}
+
+@media (max-width: 992px) {
+  .flag-info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .boxs {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .flag-info {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-top p {
+    font-size: 10px;
+  }
+  .cards h1 {
+    font-size: 30px;
+  }
+  .boxs {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 451px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 376px) {
+}
