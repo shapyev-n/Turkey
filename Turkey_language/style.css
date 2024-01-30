@@ -716,6 +716,122 @@ body {
     }
   }
 }
+#nashi {
+  padding: 50px 0;
+}
+.nash-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nash-box span {
+  color: var(--Dark, #23283b);
+  font-size: 14px;
+  font-weight: 400;
+}
+.nash-box .der {
+  width: 40px;
+  height: 1px;
+  background: var(--Red, #e6514a);
+}
+.der-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nash-box h1 {
+  margin-top: 30px;
+  color: var(--Dark, #23283b);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 130%;
+}
+.nash-box button {
+  margin-top: 80px;
+  display: inline-flex;
+  padding: 16px 60px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 30px;
+  background: var(--Red, #e6514a);
+  color: var(--White, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.nash-box button {
+  animation: 2s terum infinite ease-in-out;
+}
+@keyframes terum {
+  0% {
+    background: rgb(0, 255, 81);
+    /* margin-left: 500px; */
+    animation: infinite;
+    /* width: 500px;
+    height: 50px; */
+  }
+  30% {
+    background: aqua;
+    /* width: 500px;
+    height: 50px; */
+  }
+  50% {
+    background: #e6514a;
+    /* width: 500px;
+    height: 50px; */
+    /* margin-inlin: 500px; */
+  }
+  70% {
+    /* width: 500px;
+    height: 50px; */
+    background: gold;
+  }
+  80% {
+    background: deeppink;
+    /* width: 500px;
+    height: 50px; */
+  }
+  100% {
+    background: fuchsia;
+    animation: infinite;
+    /* width: 500px;
+    height: 50px; */
+  }
+}
+.nash-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 185px;
+  margin-top: 82px;
+}
+.naf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.naf img {
+  width: 120px;
+  height: 120px;
+}
+.naf h4 {
+  width: 200px;
+  color: var(--Dark, #23283b);
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.naf p {
+  text-align: center;
+  width: 200px;
+  color: var(--Dark, #23283b);
+  font-size: 16px;
+  font-weight: 400;
+}
 @media (max-width: 1200px) {
   body {
     .home {
