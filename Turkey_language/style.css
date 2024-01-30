@@ -1148,3 +1148,150 @@ body {
     }
   }
 }
+
+/* ? cards start */
+
+#cards {
+  width: 100%;
+}
+.cards {
+  padding: 100px 0 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.card-line {
+  background: var(--Red, #e6514a);
+  width: 40px;
+  height: 1px;
+}
+.card-top p {
+  color: var(--Dark, #23283b);
+  font-size: 14px;
+  font-weight: 400;
+}
+.cards h1 {
+  width: 78%;
+  margin: 20px 0 52px;
+  color: var(--Dark, #23283b);
+  font-size: 48px;
+  font-weight: 800;
+}
+.boxs {
+  margin: 0 auto;
+  width: 82%;
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+}
+.box {
+  width: 376px;
+}
+.box-bg {
+  width: 376px;
+  height: 210px;
+  border-radius: 12px;
+  background: var(--Light, #dedeff);
+}
+.box-info h3 {
+  margin: 43px 0 32px;
+  color: var(--Blue, #3035c3);
+  font-size: 20px;
+  font-weight: 800;
+}
+.box-info p {
+  width: 336px;
+  margin: 0 auto;
+  color: var(--Dark, #23283b);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.card-dotts {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dott1 {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--Red, #e6514a);
+}
+.dott {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--Light, #dedeff);
+}
+
+/* ? cards end */
+
+/* ? flag start */
+
+.flag {
+  border-radius: 20px;
+  /* background: linear-gradient(
+      90deg,
+      #3035c3 0.03%,
+      rgba(48, 53, 195, 0.95) 21.37%,
+      rgba(48, 53, 195, 0.86) 39.97%,
+      rgba(48, 53, 195, 0.72) 55.19%,
+      rgba(48, 53, 195, 0) 99.97%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat, #3035c3;
+  box-shadow: 0px 10px 40px 0px rgba(73, 95, 211, 0.22); */
+  padding: 80px 70px;
+  margin: 80px 0;
+  background: #3d42cef3;
+}
+.flag-info {
+  width: 40%;
+}
+.flag-top {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.flag-info h4 {
+  margin: 20px 0 38px;
+  color: var(--White, #fff);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 130%;
+}
+.flag-top span {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-weight: 400;
+}
+.flag-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.flag-p {
+  display: flex;
+  gap: 16px;
+}
+.flag-p h1 {
+  color: var(--Red, #e6514a);
+  font-size: 24px;
+  font-weight: 800;
+}
+.flag-p h2 {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* ? flag end */
